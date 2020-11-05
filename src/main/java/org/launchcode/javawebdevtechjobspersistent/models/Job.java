@@ -16,10 +16,10 @@ public class Job extends AbstractEntity{
     private List<Skill> skills=new ArrayList<>();
 
 
-    public Job(Employer anEmployer,  List<Skill> someSkills) {
+    public Job(Employer anEmployer) {
         super();
         this.employer = anEmployer;
-        this.skills = someSkills;
+        // this.skills = someSkills;
     }
     public Job() {
     }
@@ -40,7 +40,5 @@ public Employer getEmployer() {
     public void setEmployer(Employer employer) {
         this.employer = employer;
     }
-
-
 
 }

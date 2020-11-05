@@ -9,8 +9,8 @@ import java.util.Objects;
 
 @MappedSuperclass
 public abstract class AbstractEntity {
-@Id
-@GeneratedValue
+    @Id
+    @GeneratedValue
     private int id;
 
     @NotBlank(message="Name is required")
